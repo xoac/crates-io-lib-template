@@ -1,2 +1,0 @@
-[template]
-exclude = ["README.tpl"]  # README.tpl use the same schematic like cargo-generate. So we need to exclude it.
