@@ -19,8 +19,9 @@ Edit `Cargo.toml` there are some basic information you should provide.
 This is limitation because of this [issue](https://github.com/ashleygwilliams/cargo-generate/issues/17).
 
 ### 3. Update CHANGELOG.md and README.tpl
-You need to replace `GITHUB_ORG_PATH` with your organization path. For example for this project the `GITHUB_ORG_PATH` would be `https://github.com/xoac/`.
-Example `sed` code that can do this!
+You need to replace `GITHUB_ORG_PATH` with your organization path. For example for this project the `GITHUB_ORG_PATH` would be `https://github.com/xoac/` (remember about last `/`).
+
+You can do this with `sed` or with your IDE.
 ```
 sed -i 's/GITHUB_ORG_PATH/https:\/\/github\.com\/xoac\//g' README.tpl CHANGELOG.md
 ```
