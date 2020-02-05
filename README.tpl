@@ -1,6 +1,8 @@
 [![crates.io](https://img.shields.io/crates/v/{{project-name}}.svg)](https://crates.io/crates/{{project-name}})
 [![Documentation](https://docs.rs/{{project-name}}/badge.svg)](https://docs.rs/{{project-name}}/)
 ![](GITHUB_ORG_PATH/{{project-name}}/workflows/.github/workflows/main.yml/badge.svg?branch=master)
+
+{% raw %}
 {{badges}}
 
 # {{crate}}
@@ -29,3 +31,4 @@ This project try follow rules:
 * [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 _This README was generated with [cargo-readme](https://github.com/livioribeiro/cargo-readme) from [template](https://github.com/xoac/crates-io-lib-template)_
+{% endraw %}
