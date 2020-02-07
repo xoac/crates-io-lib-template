@@ -1,9 +1,12 @@
 [package]
 name = "{{project-name}}"
+# TODO description = "..."
 version = "0.1.0"
 authors = ["{{authors}}"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
+repository = "GITHUB_ORG_PATH/{{project-name}}"
+
 
 # This is a list of up to five keywords that describe this crate. Keywords
 # are searchable on crates.io, and you may choose any words that would
