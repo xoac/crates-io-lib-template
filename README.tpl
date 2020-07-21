@@ -1,6 +1,6 @@
 [![crates.io](https://img.shields.io/crates/v/{{project-name}}.svg)](https://crates.io/crates/{{project-name}})
 [![Documentation](https://docs.rs/{{project-name}}/badge.svg)](https://docs.rs/{{project-name}}/)
-![CI master](GITHUB_ORG_PATH{{project-name}}/workflows/Continuous%20integration/badge.svg?branch=master)
+[![CI master](GITHUB_ORG_PATH{{project-name}}/workflows/Continuous%20integration/badge.svg?branch=master)](GITHUB_ORG_PATH{{project-name}}/actions?query=workflow%3A%22Continuous+integration%22)
 {% raw %}{{badges}}
 
 # {{crate}}
